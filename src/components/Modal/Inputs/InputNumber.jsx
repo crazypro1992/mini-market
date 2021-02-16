@@ -29,7 +29,7 @@ const InputNumber = props => {
                 />
             <div className="form__input-error-info">
                 {props.orderFormInfo.inputNumber.value == '' && props.orderFormInfo.inputNumber.isBlur ? 'This field in required' :
-                props.regForInputNumber.test(props.orderFormInfo.inputNumber.value) && props.orderFormInfo.inputNumber.isBlur ? 'Only letters allowed' :
+                props.regForInputNumber.test(props.orderFormInfo.inputNumber.value) && props.orderFormInfo.inputNumber.isBlur ? 'Only numbers allowed' :
                 !props.regCountForInputNumber.test(props.orderFormInfo.inputNumber.value) && props.orderFormInfo.inputNumber.isBlur? 'Should contain 12 characters': null}
             </div>
         </div>
