@@ -1,0 +1,13 @@
+.btn-cheapest-card {
+    display: block;
+    width: 235px;
+    height: 60px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    background: #50DAA8;
+    font-size: 24px;
+    border-radius: 16px;
+    margin: 0 auto;
+    border: none;
+  }
